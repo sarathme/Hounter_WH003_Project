@@ -142,6 +142,7 @@ button {
   padding: 4px 4.5rem;
   border-radius: 3.2rem;
   text-align: left;
+  font-family: inherit;
   border: 1px solid #e0e3eb;
 }
 .btn__primary {
