@@ -32,6 +32,7 @@ button {
   justify-content: space-between;
   position: absolute;
   left: 12rem;
+  z-index: 100;
 }
 .header__logo {
   display: flex;
@@ -96,6 +97,7 @@ button {
   display: flex;
   margin: 0 auto;
   /* flex-wrap: wrap; */
+  overflow: hidden;
 }
 
 .hero__content {
@@ -159,6 +161,25 @@ button {
   padding: 1.2rem 1.6rem;
 }
 
+.promotion__container .house {
+  width: 20.1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.promotion__container .rev {
+  display: flex;
+  width: 20rem;
+  align-items: center;
+  justify-content: center;
+}
+.promotion__container .rev .ppl_text {
+  margin-left: 0;
+  align-items: center;
+  justify-content: center;
+}
+
 .search__logo {
   position: absolute;
   top: 50%;
@@ -174,9 +195,10 @@ button {
   right: 0;
 }
 
-.hero_btn span {
-  width: 2.4rem;
-  height: 2.4rem;
+.hero__btn span {
+  width: 7px;
+  height: 1.4rem;
+  margin-left: 1.5px;
 }
 
 .heading__secondary {
@@ -200,6 +222,7 @@ button {
 .hero__img {
   width: 90rem;
   height: 72rem;
+  position: relative;
 }
 
 .hero__img img {
@@ -245,4 +268,65 @@ button {
   left: -10%;
   translate: -50% -50%;
   border-radius: 49% 51% 20% 80% / 43% 12% 88% 57%;
+}
+
+.promotion__container {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  bottom: 4rem;
+  left: 8rem;
+}
+
+.people {
+  width: 32.8rem;
+  height: 10.4rem;
+  display: flex;
+  align-items: center;
+  padding: 0.5rem;
+  /* justify-content: center; */
+  background: #fff;
+  border-radius: 3.2rem;
+  margin-right: 2rem;
+}
+
+.recommend__friends {
+  width: 11.2rem;
+  height: 8rem;
+  display: flex;
+  /* margin-left: -4rem; */
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.recommend__photo {
+  box-sizing: content-box;
+  height: 5.6rem;
+  width: 5.6rem;
+  border-radius: 50%;
+  /* border: 3px solid #fff; */
+}
+
+.recommend__photo:not(:first-child) {
+  margin-left: -5.5rem;
+}
+
+.heading_secondary {
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+.ppl_img {
+  width: 5.6rem;
+  height: 5.6rem;
+}
+
+.ppl_text {
+  margin-left: 1rem;
+}
+
+.ppl_text p {
+  font-weight: 400;
+  font-size: 1.2rem;
+  color: #68799f;
 }
