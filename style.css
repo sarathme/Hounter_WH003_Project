@@ -24,6 +24,8 @@ body {
   margin: 4rem auto;
   display: flex;
   justify-content: space-between;
+  position: absolute;
+  left: 12rem;
 }
 .header__logo {
   display: flex;
@@ -62,9 +64,9 @@ body {
   font-weight: 600;
   height: 3.4rem;
   border-radius: 3.2rem;
-  /* border: 1px solid #ffffff36; */
+  border: 1px solid #ffffff36;
   padding: 8px 1.6rem;
-  /* color: #ffffff; */
+  color: #ffffff;
   background-color: #ffffff2a;
 }
 
@@ -76,6 +78,8 @@ body {
   height: 4.6rem;
   font-family: inherit;
   font-weight: 600;
+  outline: none;
+  border: 1px solid #d1fae5;
   color: #047857;
   background-color: #d1fae5;
   border-radius: 3.2rem;
@@ -96,6 +100,7 @@ body {
 .hero__title {
   width: 100%;
   height: 15rem;
+  margin-bottom: 2rem;
 }
 
 .hero__title h1 {
