@@ -10,6 +10,9 @@ body {
   box-sizing: border-box;
 }
 
+button {
+  outline: none;
+}
 *,
 *::after,
 *::before {
@@ -168,6 +171,23 @@ body {
   height: 2.4rem;
 }
 
+.heading__secondary {
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: #888b97;
+  margin-bottom: 1rem;
+}
+
+.partner__logo {
+  width: 42.7rem;
+  height: 6.4rem;
+}
+
+.partnership__logo {
+  width: 8.2rem;
+  height: 100%;
+  margin-right: 2.4rem;
+}
 /* .hero__title span {
   -webkit-text-stroke: #1b1c57 4px;
   color: #fff;
