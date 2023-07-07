@@ -442,7 +442,7 @@ ul {
 .heading__secondary {
     font-size: 3.2rem;
     font-weight: 600;
-    margin-left: 3.2rem;
+    margin-left: 3.5rem;
 }
 
 .recommend__text {
@@ -456,6 +456,7 @@ ul {
     background-color: #f59e0b;
     width: 3.2rem;
     height: 1px;
+    margin-right: 3px;
     display: inline-block;
     position: relative;
     top: -4px;
@@ -489,13 +490,14 @@ ul {
     width: 34rem;
     border-radius: 2.4rem;
     height: 38rem;
+    margin-bottom: 1.5rem;
     position: relative;
 }
 
 .card__btn {
     min-width: 11rem;
     height: 3.4rem;
-    padding: .8rem 1.6rem;
+    padding: 0.8rem 1.6rem;
     display: flex;
     align-items: center;
     position: absolute;
@@ -529,6 +531,7 @@ ul {
     display: flex;
     align-items: center;
     justify-content: flex-start;
+    margin-top: 0.5rem;
 }
 
 .feature__user img {
