@@ -88,17 +88,22 @@ ul {
 .nav__items li:not(:last-child) {
     margin-right: 1rem;
 }
-.signup {
+.btn__secondary {
     width: 10.7rem;
     height: 4.6rem;
     font-family: inherit;
     font-weight: 600;
     outline: none;
-    border: 1px solid #d1fae5;
+    border: 1px solid #e0e3eb;
     cursor: pointer;
+    color: #888b97;
+    background-color: #fff;
+    border-radius: 3.2rem;
+}
+
+.btn__active {
     color: #047857;
     background-color: #d1fae5;
-    border-radius: 3.2rem;
 }
 .hero {
     width: 100%;
@@ -209,7 +214,7 @@ ul {
     margin-left: 1.5px;
 }
 
-.heading__secondary {
+.heading__tertiary {
     font-size: 1.6rem;
     font-weight: 400;
     color: #888b97;
@@ -339,6 +344,8 @@ ul {
     color: #68799f;
 }
 
+/*----------------------------------------------------------FOOTER SECTION--------------------------------------------------------------------*/
+
 .footer {
     display: flex;
     justify-content: space-between;
@@ -372,12 +379,173 @@ ul {
     color: #0e1735;
 }
 
-.footer__tabs ul{
-  line-height: 2;
+.footer__tabs ul {
+    line-height: 2;
 }
 
 .footer__tabs li {
     font-size: 1.4rem;
     font-weight: 400;
     color: #888b97;
+}
+
+/*----------------------------------------------------------FEATURED HOUSES SECTION--------------------------------------------------------------------*/
+
+.feature {
+    width: 100%;
+    height: 66rem;
+    margin: 4rem 0rem;
+    overflow: hidden;
+}
+
+.feature__header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.feature__types {
+    display: flex;
+    width: 49.3rem;
+    justify-content: space-around;
+}
+
+.feature__btn {
+    cursor: pointer;
+    width: auto;
+    padding: 1.2rem 2.4rem;
+    height: 5.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #888b97;
+    border: 1px solid #e0e3eb;
+    border-radius: 3.2rem;
+}
+
+.feature__btn h3 {
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
+.feature__active {
+    background-color: #d1fae5;
+    border-color: #d1fae5;
+    color: #10b981;
+}
+.feature__btn svg {
+    width: 2.4rem;
+    height: 2.4rem;
+    margin-right: 1rem;
+}
+
+.heading__secondary {
+    font-size: 3.2rem;
+    font-weight: 600;
+    margin-left: 3.2rem;
+}
+
+.recommend__text {
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: #f59e0b;
+}
+
+.recommend__text::before {
+    content: '';
+    background-color: #f59e0b;
+    width: 3.2rem;
+    height: 1px;
+    display: inline-block;
+    position: relative;
+    top: -4px;
+}
+
+.pro__button {
+    width: 6rem;
+    text-align: center;
+    margin-right: 2rem;
+}
+.pro__button svg {
+    width: 2.8rem;
+    height: 2.8rem;
+}
+
+.pro__active {
+    background-color: #10b981;
+    color: #fff;
+}
+
+.feature__gallery {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin-top: 5rem;
+    margin-left: 10rem;
+    flex: 0;
+}
+
+.feature__img {
+    width: 34rem;
+    border-radius: 2.4rem;
+    height: 38rem;
+    position: relative;
+}
+
+.card__btn {
+    min-width: 11rem;
+    height: 3.4rem;
+    padding: .8rem 1.6rem;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    justify-content: center;
+    border-radius: 3.2rem;
+    color: #ef4444;
+    background-color: #fee2e2;
+    bottom: 2rem;
+    left: 2rem;
+}
+
+.btn__text {
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+.card__btn svg {
+    margin-right: 0.5rem;
+}
+
+.feature__desc h3 {
+    font-size: 2.4rem;
+    font-weight: 500;
+}
+.feature__desc p {
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.feature__user {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.feature__user img {
+    border-radius: 50%;
+    width: 4rem;
+    height: 4rem;
+    margin-right: 2rem;
+}
+
+.user__desc {
+    font-weight: 500;
+}
+
+.user__desc h3 {
+    font-size: 1.8rem;
+}
+.user__desc p {
+    color: #888b97;
+    font-size: 1.4rem;
 }
