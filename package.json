@@ -1,19 +1,22 @@
 {
-  "name": "hounter_project",
-  "version": "1.0.0",
-  "description": "WH_Internship_Project",
-  "main": "index.html",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/sarathme/Hounter_WH003_Project.git"
-  },
-  "author": "Sarasraman",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/sarathme/Hounter_WH003_Project/issues"
-  },
-  "homepage": "https://github.com/sarathme/Hounter_WH003_Project#readme"
+    "name": "hounter_project",
+    "version": "1.0.0",
+    "description": "WH_Internship_Project",
+    "main": "index.html",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/sarathme/Hounter_WH003_Project.git"
+    },
+    "author": "Sarasraman",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/sarathme/Hounter_WH003_Project/issues"
+    },
+    "homepage": "https://github.com/sarathme/Hounter_WH003_Project#readme",
+    "devDependencies": {
+        "prettier": "3.0.0"
+    }
 }
